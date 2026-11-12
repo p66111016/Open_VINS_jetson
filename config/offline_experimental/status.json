@@ -1,0 +1,11 @@
+{
+  "ready": false,
+  "intrinsics_reviewed": false,
+  "camera_imu_extrinsics_reviewed": false,
+  "camera_imu_time_offset_reviewed": false,
+  "imu_noise_reviewed": false,
+  "rectification_applied": true,
+  "rectification_ros_yaml": "/home/user/mono-openvins-ros2/config/offline_experimental/camera_ros.yaml",
+  "notes": "Offline mechanics only. Identity T_imu_cam, zero time offset, and generic IMU noise are placeholders, not measured calibration. Camera intrinsics copied from existing cuVSLAM assumptions.",
+  "exploratory": true
+}

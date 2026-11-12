@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+deps/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+logs/
+results/
+# Downloaded upstream packages are recreated by scripts/fetch_sources.sh.
+/ros2_ws/src/open_vins/
+/ros2_ws/src/cv_bridge
+/ros2_ws/src/px4_msgs/
+# Generated install manifests and local editor/cache files.
+/symlink_install_manifest.txt
+.cache/
+.DS_Store
+*.swp
+*.swo

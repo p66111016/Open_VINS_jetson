@@ -1,0 +1,12 @@
+{
+  "image_dir": "/home/user/2026-06-22VTOL/firefly",
+  "image_timestamps_csv": "/home/user/DPVO-EDM-v0.0.0/data/115/MP_aligned/EOP_firefly_unix.csv",
+  "image_time_column": "unix_utc+8",
+  "imu_csv": "/home/user/DPVO-EDM-v0.0.0/data/115/MP_aligned/streams/imu_unix.csv",
+  "imu_instance": 0,
+  "imu_preroll_s": 2.0,
+  "imu_postroll_s": 0.1,
+  "dataset_confirmed": false,
+  "timebase_reviewed": false,
+  "imu_units_axes_reviewed": false
+}

@@ -1,0 +1,29 @@
+# Stable ROS 2 contract for both recorded data and future live drivers.
+camera:
+  topic: /openvins/input/image_raw
+  message: sensor_msgs/msg/Image
+  frame_id: vio_camera_optical
+  encoding: mono8
+  reliability: reliable
+  rectified: true
+  timestamp: actual_exposure_time
+imu:
+  topic: /openvins/input/imu
+  message: sensor_msgs/msg/Imu
+  frame_id: vio_imu
+  reliability: reliable
+  angular_velocity_unit: rad/s
+  linear_acceleration_unit: m/s^2
+  remove_gravity: false
+  expected_rate_hz: 200
+  timestamp: actual_measurement_time
+estimator:
+  namespace: /openvins
+  odometry: /openvins/odomimu
+  historical_use_sim_time: true
+  live_use_sim_time: false
+  camera_model_source: kalibr_imucam_chain.yaml
+  imu_model_source: kalibr_imu_chain.yaml
+px4:
+  enabled: false
+  planned_input: /fmu/in/vehicle_visual_odometry

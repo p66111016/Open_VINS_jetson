@@ -1,0 +1,12 @@
+{
+  "image_dir": "/home/user/2026-06-22VTOL/firefly",
+  "image_timestamps_csv": "/home/user/mono-openvins-ros2/results/20260622_200hz/image_timestamps.csv",
+  "image_time_column": "unix_us",
+  "imu_csv": "/home/user/2026-06-22VTOL/IMU/imu_200hz.csv",
+  "imu_instance": 0,
+  "imu_preroll_s": 2.0,
+  "imu_postroll_s": 0.1,
+  "dataset_confirmed": true,
+  "timebase_reviewed": false,
+  "imu_units_axes_reviewed": false
+}

@@ -1,0 +1,17 @@
+%YAML:1.0
+cam0:
+  # Unknown mounting: identity is only an initialization placeholder.
+  T_imu_cam:
+    - [1.0, 0.0, 0.0, 0.0]
+    - [0.0, 1.0, 0.0, 0.0]
+    - [0.0, 0.0, 1.0, 0.0]
+    - [0.0, 0.0, 0.0, 1.0]
+  timeshift_cam_imu: 0.0
+  cam_overlaps: []
+  camera_model: pinhole
+  # Full five-coefficient distortion is applied by replay.py before publication.
+  distortion_model: radtan
+  distortion_coeffs: [0.0, 0.0, 0.0, 0.0]
+  intrinsics: [517.6153405355742, 517.6153405355742, 717.1615769602262, 576.7607815199817]
+  resolution: [1440, 1080]
+  rostopic: /openvins/input/image_raw

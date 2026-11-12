@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "intrinsics_reviewed": false,
+  "camera_imu_extrinsics_reviewed": false,
+  "camera_imu_time_offset_reviewed": false,
+  "imu_noise_reviewed": false,
+  "rectification_applied": true,
+  "rectification_ros_yaml": "",
+  "notes": "Copy this status file into your calibration directory as status.json. Supply estimator_config.yaml, kalibr_imu_chain.yaml, kalibr_imucam_chain.yaml. Do not replace unknown extrinsics with identity."
+}

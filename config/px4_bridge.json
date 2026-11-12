@@ -1,0 +1,14 @@
+{
+  "source_mode": "historical",
+  "R_world_frd_from_global": [[1,0,0],[0,-1,0],[0,0,-1]],
+  "R_imu_from_body_frd": [[1,0,0],[0,1,0],[0,0,1]],
+  "max_age_ms": 200,
+  "max_speed_mps": 30,
+  "output_hz": 30,
+  "calibration_verified": false,
+  "body_rotation_verified": false,
+  "px4_message_version_verified": false,
+  "time_sync_verified": false,
+  "tracking_quality_verified": false,
+  "note": "Preview only. Position reference is VIO IMU: configure EKF2_EV_POS once. Velocity fusion disabled because native Odometry lacks pose-velocity cross covariance. Arbitrary-heading local FRD, not north-aligned NED."
+}
